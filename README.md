@@ -10,3 +10,14 @@ This repository contains a small Python program that lets you play a guess-the-n
    python main.py
    ```
 3. Follow the prompts to guess the secret number.
+
+## Voice Agent
+
+`voice_agent.py` je jednoduchý hlasový agent, který rozpoznává mluvené příkazy v češtině a odpovídá na ně. Pro spuštění budete potřebovat balíčky `speech_recognition` a `pyttsx3` a funkční mikrofon.
+
+Spusťte ho takto:
+```bash
+python voice_agent.py
+```
+
+Zkuste například říct "Ahoj" nebo "Jak se jmenuješ".
